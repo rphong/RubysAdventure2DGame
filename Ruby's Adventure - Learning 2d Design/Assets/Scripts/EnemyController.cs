@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
     public bool vertical;
     public float changeTime = 3.0f;
 
+    bool broken = true;
+
     Rigidbody2D rigidbody2d;
     float timer;
     int direction = 1;
@@ -31,10 +33,19 @@ public class EnemyController : MonoBehaviour
             direction = -direction;
             timer = changeTime;
         }
+
+        if (!broken)
+        {
+            return;
+        }
     }
 
     private void FixedUpdate()
     {
+        if (!broken)
+        {
+            return;
+        }
         Vector2 position = rigidbody2d.position;
 
         if (vertical)
@@ -62,5 +73,12 @@ public class EnemyController : MonoBehaviour
         {
             player.ChangeHealth(-1);
         }
+    }
+
+    public void Fix()
+    {
+        broken = false;
+        animator.SetTrigger("Fixed");
+        rigidbody2d.simulated = false;
     }
 }
