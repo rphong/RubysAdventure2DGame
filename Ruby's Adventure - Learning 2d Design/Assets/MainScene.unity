@@ -559,6 +559,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 334996171}
     m_Modifications:
+    - target: {fileID: 1301565438793779957, guid: 92e49d9733786c341b42af4c65c60490, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2015439090973843966, guid: 92e49d9733786c341b42af4c65c60490, type: 3}
       propertyPath: m_Name
       value: CollectibleHealth (2)
@@ -5742,6 +5746,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 334996171}
     m_Modifications:
+    - target: {fileID: 1301565438793779957, guid: 92e49d9733786c341b42af4c65c60490, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2015439090973843966, guid: 92e49d9733786c341b42af4c65c60490, type: 3}
       propertyPath: m_Name
       value: CollectibleHealth (1)
@@ -5931,7 +5939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5257505094077377065, guid: da39dca6f7999ac4187e74dbe36a1e2d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.050695
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5257505094077377065, guid: da39dca6f7999ac4187e74dbe36a1e2d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6078,11 +6086,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7332050759401041503, guid: 7d66556a3ed0b3243a7fb164506537f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.27
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 7332050759401041503, guid: 7d66556a3ed0b3243a7fb164506537f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.09
+      value: -1.33
       objectReference: {fileID: 0}
     - target: {fileID: 7332050759401041503, guid: 7d66556a3ed0b3243a7fb164506537f2, type: 3}
       propertyPath: m_LocalPosition.z
